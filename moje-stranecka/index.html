@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#edf1eb">
+  <meta name="description" content="Portfolio Standíčka, studenta elektrotechniky a průmyslové automatizace se zaměřením na systémy Siemens.">
+  <title>Standíček | Elektrotechnika a automatizace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Přeskočit na obsah</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Standíček, úvodní sekce">
+      <span class="wordmark-mark" aria-hidden="true">S<span>.</span></span>
+      <span>Standíček <span class="wordmark-role">/ student</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Hlavní navigace">
+      <a href="#about">O mně</a>
+      <a href="#skills">Dovednosti</a>
+      <a href="#projects">Projekty</a>
+      <a href="#future">Moje cesta</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Přepnout na tmavý motiv" title="Přepnout na tmavý motiv" aria-pressed="false">
+      <span class="theme-icon" aria-hidden="true">☾</span>
+    </button>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> ELEKTROTECHNIKA · PRŮMYSLOVÁ AUTOMATIZACE</p>
+        <h1 id="hero-title">Měním nápady<br>v chytrá <span>řešení.</span></h1>
+        <p class="hero-lead">Jsem Standíček, student elektrotechniky a průmyslové automatizace na SPŠ, SOŠ a SOU v Hradci Králové. Nejvíc mě zajímá průmyslová automatizace a systémy Siemens.</p>
+        <p class="motto"><span class="motto-line" aria-hidden="true"></span> „Dobrý nápad má smysl, když funguje v praxi.“</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Prohlédnout projekty <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact">Ozvat se <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="edit-note">ELEKTROTECHNIKA · PRŮMYSLOVÁ AUTOMATIZACE</p>
+      </div>
+      <figure class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85" alt="Detail elektronické desky s čipem a součástkami" fetchpriority="high">
+        <figcaption><span>01 / 06</span><span>Od obvodu k řešení</span></figcaption>
+        <span class="hero-stamp" aria-hidden="true">ELEKTRO<br><b>+</b><br>ŘÍZENÍ</span>
+      </figure>
+      <a class="scroll-cue" href="#about"><span class="scroll-cue-line" aria-hidden="true"></span> POSUNOUT DÁL</a>
+      <span class="hero-float hero-braces" aria-hidden="true">{ }</span>
+      <span class="hero-float hero-gear" aria-hidden="true">⚙</span>
+      <span class="hero-float hero-pulse" aria-hidden="true"></span>
+    </section>
+
+    <section class="about section-wrap section-grid" id="about" aria-labelledby="about-title">
+      <div class="section-index"><span>01</span><span class="index-rule"></span><span>O MNĚ</span></div>
+      <div class="section-content about-content">
+        <p class="eyebrow">ZVĚDAVOST JE DOBRÝ ZAČÁTEK</p>
+        <h2 id="about-title">Život i mimo<br><span>řídicí panel.</span></h2>
+        <div class="about-columns">
+          <p>Užívám si studentský život, příjemné posezení u piva s kamarády i společné zážitky. Aktivně se věnuji skautingu a pomáhám proměňovat nápady v akce a tábory.</p>
+          <p>Mimo školu a skauting mě nejčastěji najdete na motorce. Rád jezdím i udržuji svou Daelim VS 125 z roku 1995 a při tom poznávám, jak věci fungují.</p>
+        </div>
+        <ul class="interest-list" aria-label="Zájmy">
+          <li>Skauting</li><li>Motorky</li><li>Technika v praxi</li><li>Kamarádi</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section-grid" id="skills" aria-labelledby="skills-title">
+      <div class="section-index"><span>02</span><span class="index-rule"></span><span>DOVEDNOSTI</span></div>
+      <div class="section-content">
+        <div class="section-heading-row">
+          <div>
+            <p class="eyebrow">NÁSTROJE, SE KTERÝMI PRACUJI</p>
+            <h2 id="skills-title">Moje technická <span>výbava.</span></h2>
+          </div>
+          <p class="section-aside">Elektrotechnika<br>a průmyslová automatizace</p>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Zvýraznit dovednosti a projekty podle tématu">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Vše</button>
+          <button class="filter-button" type="button" data-filter="siemens" aria-pressed="false">Siemens</button>
+          <button class="filter-button" type="button" data-filter="arduino" aria-pressed="false">Arduino</button>
+          <button class="filter-button" type="button" data-filter="scouting" aria-pressed="false">Scouting</button>
+        </div>
+        <p class="filter-status" aria-live="polite">Zobrazují se všechny dovednosti a projekty.</p>
+        <div class="skill-groups">
+          <article class="skill-group" data-tags="siemens plc">
+            <span class="skill-number">A / 01</span>
+            <h3>PLC a automatizace</h3>
+            <ul><li><span>Siemens TIA Portal V18</span><span class="skill-level">SIEMENS</span></li><li><span>SIMATIC S7-1200</span><span class="skill-level">PLC</span></li><li><span>SIMATIC S7-300</span><span class="skill-level">PLC</span></li></ul>
+          </article>
+          <article class="skill-group" data-tags="siemens hmi opc-ua">
+            <span class="skill-number">A / 02</span>
+            <h3>Vizualizace a komunikace</h3>
+            <ul><li><span>WinCC</span><span class="skill-level">SIEMENS</span></li><li><span>Panely HMI</span><span class="skill-level">VIZUALIZACE</span></li><li><span>OPC UA</span><span class="skill-level">KOMUNIKACE</span></li></ul>
+          </article>
+          <article class="skill-group" data-tags="arduino cpp sensors">
+            <span class="skill-number">A / 03</span>
+            <h3>Mikrokontroléry</h3>
+            <ul><li><span>Arduino</span><span class="skill-level">PLATFORMA</span></li><li><span>Programování v C++</span><span class="skill-level">KÓD</span></li><li><span>Senzory</span><span class="skill-level">ELEKTRONIKA</span></li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap section-grid" id="projects" aria-labelledby="projects-title">
+      <div class="section-index"><span>03</span><span class="index-rule"></span><span>PROJEKTY</span></div>
+      <div class="section-content">
+        <div class="section-heading-row">
+          <div><p class="eyebrow">NÁPADY UVEDENÉ DO PRAXE</p><h2 id="projects-title">Tvořím řešení,<br><span>která mají smysl.</span></h2></div>
+          <p class="section-aside">Automatizace, spolupráce<br>a zkušenosti z praxe</p>
+        </div>
+        <div class="project-list">
+          <article class="project-item" data-tags="siemens irrigation automation">
+            <div class="project-visual project-visual-circuit" aria-hidden="true"><span class="circuit-label">ČIDLO <i></i></span><span class="circuit-node">LOGO!</span><span class="circuit-label">ČERPADLO <i></i></span></div>
+            <div class="project-details"><div class="project-meta"><span>PROJEKT AUTOMATIZACE</span><span>SIEMENS</span></div><h3>Automatické řízení zavlažování</h3><p>Navrhl a postavil jsem automatický systém řízení zavlažování s řídicí jednotkou Siemens LOGO!. Projekt propojuje řídicí logiku, praktické zapojení a využití v praxi.</p><ul class="tag-list"><li>Siemens LOGO!</li><li>Automatizace</li><li>Řídicí systém</li></ul></div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="project-item" data-tags="scouting events leadership">
+            <div class="project-visual project-visual-control" aria-hidden="true"><span class="control-signal">PLÁN</span><span class="control-path"></span><span class="control-signal">TÁBOR</span></div>
+            <div class="project-details"><div class="project-meta"><span>SKAUTING · ORGANIZACE</span><span>TÝMOVÁ PRÁCE</span></div><h3>Skautské akce a tábory</h3><p>Organizuji řadu skautských akcí a táborů, při kterých plánuji program, spolupracuji s ostatními a zajišťuji potřebné zázemí.</p><ul class="tag-list"><li>Organizace</li><li>Skauting</li><li>Týmová práce</li></ul></div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="future section-wrap section-grid" id="future" aria-labelledby="future-title">
+      <div class="section-index"><span>04</span><span class="index-rule"></span><span>MOJE CESTA</span></div>
+      <div class="section-content future-content">
+        <p class="eyebrow">DALŠÍ KAPITOLA</p>
+        <h2 id="future-title">Pevné základy.<br><span>Budoucnost v automatizaci.</span></h2>
+        <div class="future-bottom"><p>Po maturitě chci studovat průmyslovou automatizaci na vysoké škole, nejspíš na VŠB–Technické univerzitě Ostrava (VŠB-TUO). Rád bych se profesně věnoval automatizačnímu inženýrství a systémům, které pomáhají dělat průmysl chytřejší a spolehlivější.</p><div class="future-marker"><span class="future-marker-dot"></span><span>DALŠÍ KROK</span><b>Vysoká škola → zkušenosti → automatizace</b></div></div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap section-grid" id="contact" aria-labelledby="contact-title">
+      <div class="section-index"><span>05</span><span class="index-rule"></span><span>KONTAKT</span></div>
+      <div class="section-content contact-content">
+        <p class="eyebrow">HLEDÁM PRAXI · BRIGÁDU · NOVÉ PŘÍLEŽITOSTI</p>
+        <h2 id="contact-title">Pojďme společně<br><span>vytvořit něco, co funguje.</span></h2>
+        <p class="contact-copy">Zaujalo tě moje portfolio nebo máš zajímavou technickou výzvu? Ozvi se mi nebo se podívej na mé projekty na GitHubu.</p>
+        <a class="button button-light" href="https://github.com/your-nickname" target="_blank" rel="noopener noreferrer">Můj GitHub <span aria-hidden="true">↗</span></a>
+        <p class="github-note">Odkaz „your-nickname“ nahraď svým uživatelským jménem na GitHubu.</p>
+      </div>
+      <span class="contact-index" aria-hidden="true">TVORBA<br>A TECHNIKA<br><b>01—26</b></span>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="footer-mark" href="#home">S<span>.</span></a><p>Vytvořeno s pečlivostí a zvědavostí.</p><p>© <span id="year">2026</span> Standíček · Portfolio</p><a class="back-top" href="#home">NAHORU ↑</a></footer>
+</body>
+</html>
